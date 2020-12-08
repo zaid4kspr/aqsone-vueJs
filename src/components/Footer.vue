@@ -4,7 +4,7 @@
     <footer class="main-footer">
       <div class="auto-container">
         <div class="logo"></div>
-        <ul class="footer-nav d-md-flex ">
+        <ul class="footer-nav d-md-flex">
           <li><a href="#">Home</a></li>
           <li><a href="#">Recipes</a></li>
           <li><a href="#">About us</a></li>
@@ -12,7 +12,7 @@
           <li><a href="#">Blog</a></li>
           <li><a href="#">Contacts</a></li>
         </ul>
-       
+
         <div class="copyright">&copy; All Right Reserved 2020</div>
       </div>
     </footer>
@@ -45,12 +45,12 @@ export default {
 .main-footer .footer-nav {
   margin: 25px 0px 30px;
   justify-content: space-around;
-
 }
 ul,
 li {
   padding: 0px;
   margin: 0px;
+  list-style-type: none;
 }
 .main-footer .copyright {
   position: relative;
@@ -68,5 +68,4 @@ li {
   font-family: "Grand Hotel", cursive;
   text-decoration: none;
 }
-
 </style>

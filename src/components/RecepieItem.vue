@@ -2,7 +2,7 @@
   <v-container :fluid="true" class="pt-0">
     <div class="inner-box">
       <div class="image">
-        <a href="recipes-detail.html"
+        <a 
           ><img :src="item.recipe.image" alt=""
         /></a>
       </div>
